@@ -1,0 +1,83 @@
+body {
+    background: #fff;
+    font-family: Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.mac-logo {
+    width: 100%;
+    height: auto;
+}
+
+section {
+    width: 48%;
+}
+
+.content {
+    margin-left: 15%;
+    width: 70%;
+    height: 90%;
+    margin-top: 10%;
+}
+
+.top {
+    display: flex;
+    height: 7vh;
+    align-items: center;
+    color: #424242;
+    font-size: larger;
+}
+
+.img-logo{
+    height: 32px;
+    width: auto;
+    margin-right: 2%;
+}
+
+.mac {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    height: 30vh;
+    overflow: hidden;
+}
+
+.content-sections {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.left {
+    border-radius: 15px;
+    background-color: #e4e4e4;
+    display: flex;
+    justify-content: center;
+}
+
+.right {
+    border-radius: 15px;
+    background-color: #e4e4e4;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.inside {
+    width: 90%;
+}
+
+.bottom-code {
+    background-color: #424242;
+    color: white;
+    width: 100%;
+    flex: 1;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
